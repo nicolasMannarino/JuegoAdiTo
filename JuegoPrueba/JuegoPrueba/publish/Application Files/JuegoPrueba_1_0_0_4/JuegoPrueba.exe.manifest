@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JuegoPrueba.exe" version="1.0.0.4" publicKeyToken="1debae90fc901023" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JuegoPrueba" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JuegoPrueba.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JuegoPrueba.exe" size="125920">
+      <assemblyIdentity name="JuegoPrueba" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oadDdkx/Q84TGWJtub4jUFTUcMWZCDIMuEXtQdgxfos=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="JuegoPrueba.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imagen2.png" size="21624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ug5anl0lUAY+prqGt8IUKebCCLyuym5xGf01VLvQXjc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imagen4.png" size="98809">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w1s7RyFoi/juoBtHuIi2S/zp5BktxRA4MlyJXIJz1ak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imagen5.png" size="40826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>115ofnAZRuwUzb/u4pwqax5OkRcjqxfVGGt7CrWg48Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imagen6.png" size="26148">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nSVQ8dFJUH49fHX68izC1O0xZnOrNnZDUwjLsQhC5gY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\imagen7.png" size="121661">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D1U6+Y2HblWhPoiTyOrz3w3+8VGoDA5Zh+3SDx8sL34=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-08LJSL7\Manna" issuerKeyHash="53fb896b38f76be9025b837770a6a8f730e1d1ff" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VOnd3osMC+ctLFMKqzwAC1hoTez8nLQAO7EEtDiCh7o=</DigestValue></Reference></SignedInfo><SignatureValue>tJGGrRCE706QzZFCKfmj5t6i8aHilBIT8p4UWejRGG3bvABC4kUVrKFqTqZlQ0wJnkiaut9QI66lOL/9k941UKMPt1pHjroduUrHTzAitMgpa5pE7eLpLxgacbhiPpKcQoIJKjf7a2iR2Zwt4EdiFd5b50AWChlOMsnGWNlXTyM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xqxDLyPiDt3SzjZYuxlpeSwQmYsPz2kRJv/ZCpjWOqgRcZMErF9RWlt041KMeDbSnbjGyRU5NVE4SOIVWB18fdLlqMIt+GKxF/MMwXCjA/X5qXzYp2bAfLgSEfZienoj6DExJb29kH/TwADrk7qyTHONlB84U4MdW7Z1oydcPc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba878238b404b13b00b49cfcec4d68580b003cab0a532c2de70b0c8bdedde954" Description="" Url=""><as:assemblyIdentity name="JuegoPrueba.exe" version="1.0.0.4" publicKeyToken="1debae90fc901023" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-08LJSL7\Manna</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rlQ5x0QOo++kicRPj2A1RyXozzCESAYmXdLbc7H3B7U=</DigestValue></Reference></SignedInfo><SignatureValue>CoO9+I1Mq1VwatF58pc+DuDFC4gf9YjTCjMxLYC2l/duFqI/Tc/gPjrP74TNGGWeiP8HH/kf+MHsme8xrxTjXkJtaQtYZc1Em6eQRqz9xIjS1sZKwy6UcmxbtI2TrYa9oBSBHcCNYnkEZmpzYI3if4t5Hj07M80AYeJqv73+dZc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xqxDLyPiDt3SzjZYuxlpeSwQmYsPz2kRJv/ZCpjWOqgRcZMErF9RWlt041KMeDbSnbjGyRU5NVE4SOIVWB18fdLlqMIt+GKxF/MMwXCjA/X5qXzYp2bAfLgSEfZienoj6DExJb29kH/TwADrk7qyTHONlB84U4MdW7Z1oydcPc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKNlEVC4gnqVBBSG+t18gOzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAAOABMAEoAUwBMADcAXABNAGEAbgBuAGEwHhcNMjAwMTE1MDA1NjMxWhcNMjEwMTE0MDY1NjMxWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADAAOABMAEoAUwBMADcAXABNAGEAbgBuAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMasQy8j4g7d0s42WLsZaXksEJmLD89pESb/2QqY1jqoEXGTBKxfUVpbdONSjHg20p24xskVOTVROEjiFVgdfH3S5ajCLfhisRfzDMFwowP1+al82KdmwHy4EhH2Ynp6I+gxMSW9vZB/08AA65O6skxzjZQfOFODHVu2daMnXD3NAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAq/7mJ1mAj901l2XJW6qcfZHFyKDwMthkop7MmQCcnDSsx7HC9NvfZATBO0S5K0gEqI51ljnsw+cR63zn9hC6VHxpc7sURwJglIOhgC3k6Vw3mVQCMaP1hXVLtfNrEhMPAH3E7WCaCrPdN6NKc7YXvn4Xxt9/q7zAa4IX8f7boC0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
